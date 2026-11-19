@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechVerse - technology blog</title>
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+
+  <body class="bg-slate-50">
+    <header class="bg-white border-b border-slate-200">
+      <nav
+        class="max-w-7xl mx-auto px-4 sm:px-6 h-auto md:h-20 py-5 md:py-0 flex flex-wrap items-center justify-between"
+      >
+        <!-- Logo -->
+        <a
+          href="index.html"
+          class="text-2xl font-extrabold tracking-tight text-slate-900 transition-colors duration-300"
+        >
+          Tech<span class="text-blue-600">Verse.</span>
+        </a>
+
+        <!-- Navigation -->
+        <ul
+          class="order-3 md:order-none w-full md:w-auto flex items-center justify-center gap-6 md:gap-10 mt-5 md:mt-0"
+        >
+          <li>
+            <a
+              href="index.html"
+              class="text-blue-600 font-semibold transition-colors duration-300 ease-out"
+            >
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#blogs"
+              class="text-slate-600 hover:text-blue-600 transition-colors duration-300 ease-out"
+            >
+              Blogs
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#about"
+              class="text-slate-600 hover:text-blue-600 transition-colors duration-300 ease-out"
+            >
+              About
+            </a>
+          </li>
+        </ul>
+
+        <!-- Buttons -->
+        <div class="flex items-center gap-3 sm:gap-5">
+          <a
+            href="login.html"
+            class="hidden sm:inline text-slate-700 font-semibold hover:text-blue-600 transition-colors duration-300 ease-out"
+          >
+            Login
+          </a>
+
+          <a
+            href="register.html"
+            class="bg-blue-600 hover:bg-blue-700 text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg font-semibold transition-colors duration-300 ease-out"
+          >
+            Get Started
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about" class="max-w-7xl mx-auto px-6 py-20 scroll-mt-24">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <!-- Left Content -->
+        <div>
+          <span
+            class="text-blue-600 font-semibold text-sm uppercase tracking-widest"
+          >
+            Welcome to TechVerse
+          </span>
+
+          <h1
+            class="text-4xl md:text-6xl font-bold text-slate-900 mt-5 leading-tight"
+          >
+            Explore the World of
+            <span class="text-blue-600">Technology</span>
+          </h1>
+
+          <p class="text-slate-600 text-lg mt-6 leading-8">
+            Discover the latest technology trends, programming tutorials,
+            development tips and insights to grow your knowledge.
+          </p>
+
+          <!-- Buttons -->
+          <div class="flex flex-wrap gap-4 mt-8">
+            <a
+              href="#blogs"
+              class="bg-blue-600 text-white px-7 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+            >
+              Explore Blogs
+            </a>
+
+            <a
+              href="#about"
+              class="border border-slate-300 text-slate-700 px-7 py-3 rounded-lg font-semibold hover:bg-slate-100 transition"
+            >
+              Learn More
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Image -->
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=900"
+            alt="Technology workspace"
+            class="w-full rounded-2xl shadow-xl"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="max-w-7xl mx-auto px-6 py-12">
+      <div class="mb-8">
+        <h2 class="text-3xl font-bold text-slate-900">Explore Categories</h2>
+
+        <p class="text-slate-500 mt-2">
+          Discover articles by your favorite topics.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+        <a
+          href="#blogs"
+          class="bg-white p-6 rounded-xl border border-slate-200 hover:shadow-lg hover:border-blue-300 transition"
+        >
+          <h3 class="font-bold text-lg text-slate-900">Programming</h3>
+          <p class="text-slate-500 text-sm mt-2">Code and development</p>
+        </a>
+
+        <a
+          href="#blogs"
+          class="bg-white p-6 rounded-xl border border-slate-200 hover:shadow-lg hover:border-blue-300 transition"
+        >
+          <h3 class="font-bold text-lg text-slate-900">Technology</h3>
+          <p class="text-slate-500 text-sm mt-2">Latest tech trends</p>
+        </a>
+
+        <a
+          href="#blogs"
+          class="bg-white p-6 rounded-xl border border-slate-200 hover:shadow-lg hover:border-blue-300 transition"
+        >
+          <h3 class="font-bold text-lg text-slate-900">Backend</h3>
+          <p class="text-slate-500 text-sm mt-2">Servers and databases</p>
+        </a>
+
+        <a
+          href="#blogs"
+          class="bg-white p-6 rounded-xl border border-slate-200 hover:shadow-lg hover:border-blue-300 transition"
+        >
+          <h3 class="font-bold text-lg text-slate-900">Frontend</h3>
+          <p class="text-slate-500 text-sm mt-2">UI and web design</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Latest Blogs Section -->
+    <section id="blogs" class="max-w-7xl mx-auto px-6 py-16">
+      <!-- Section Heading -->
+      <div class="flex items-center justify-between mb-10">
+        <div>
+          <h2 class="text-3xl font-bold text-slate-900">Latest Articles</h2>
+
+          <p class="text-slate-500 mt-2">
+            Explore our latest technology articles.
+          </p>
+        </div>
+
+        <a
+          href="#blogs"
+          class="text-blue-600 font-semibold hover:text-blue-800"
+        >
+          View All →
+        </a>
+      </div>
+
+      <!-- Blog Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Blog Card 1 -->
+        <article
+          class="bg-white rounded-2xl overflow-hidden border border-slate-200 hover:shadow-xl transition"
+        >
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIhWCiHCqpza4h9ZaoKSxWzrYgV46rz3wPebFXoG8VFQ&s=10"
+            alt="Programming technology"
+            class="w-full h-52 object-cover"
+            loading="lazy"
+          />
+
+          <div class="p-6">
+            <span class="text-blue-600 text-sm font-semibold">
+              Programming
+            </span>
+
+            <h3 class="text-xl font-bold text-slate-900 mt-3">
+              Getting Started with JavaScript
+            </h3>
+
+            <p class="text-slate-500 mt-3 leading-7">
+              Learn the fundamentals of JavaScript and start building
+              interactive web applications.
+            </p>
+
+            <div class="flex items-center justify-between mt-6">
+              <span class="text-sm text-slate-500"> By Admin </span>
+
+              <a
+                href="blog-details.html"
+                class="text-blue-600 font-semibold hover:underline"
+              >
+                Read More →
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Blog Card 2 -->
+        <article
+          class="bg-white rounded-2xl overflow-hidden border border-slate-200 hover:shadow-xl transition"
+        >
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT88_3uog0FJw1HOuAiha_W_xtYaQOQp4kCMarojNKVpg&s=10"
+            alt="Backend server"
+            class="w-full h-52 object-cover"
+            loading="lazy"
+          />
+
+          <div class="p-6">
+            <span class="text-blue-600 text-sm font-semibold"> Backend </span>
+
+            <h3 class="text-xl font-bold text-slate-900 mt-3">
+              Understanding Backend Development
+            </h3>
+
+            <p class="text-slate-500 mt-3 leading-7">
+              Explore how servers, APIs and databases work together in modern
+              web applications.
+            </p>
+
+            <div class="flex items-center justify-between mt-6">
+              <span class="text-sm text-slate-500"> By Admin </span>
+
+              <a
+                href="blog-details.html"
+                class="text-blue-600 font-semibold hover:underline"
+              >
+                Read More →
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Blog Card 3 -->
+        <article
+          class="bg-white rounded-2xl overflow-hidden border border-slate-200 hover:shadow-xl transition"
+        >
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNqoH7-TAXfzgOAWpepUpbYkPqdrFVon_ZdkY3wBqA5g&s=10"
+            alt="Frontend development"
+            class="w-full h-52 object-cover"
+            loading="lazy"
+          />
+
+          <div class="p-6">
+            <span class="text-blue-600 text-sm font-semibold"> Frontend </span>
+
+            <h3 class="text-xl font-bold text-slate-900 mt-3">
+              Modern Frontend Development
+            </h3>
+
+            <p class="text-slate-500 mt-3 leading-7">
+              Discover modern frontend tools and techniques for building better
+              interfaces.
+            </p>
+
+            <div class="flex items-center justify-between mt-6">
+              <span class="text-sm text-slate-500"> By Admin </span>
+
+              <a
+                href="blog-details.html"
+                class="text-blue-600 font-semibold hover:underline"
+              >
+                Read More →
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="bg-slate-950 text-white mt-20">
+      <div class="max-w-7xl mx-auto px-6 pt-16 pb-8">
+        <!-- Footer Main Content -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+          <!-- Brand -->
+          <div>
+            <a href="index.html" class="text-3xl font-extrabold tracking-tight">
+              Tech<span class="text-blue-500">Verse.</span>
+            </a>
+
+            <p class="text-slate-400 mt-5 leading-7">
+              Your destination for technology insights, programming tutorials
+              and modern web development knowledge.
+            </p>
+
+            <!-- Social Links -->
+            <div class="flex items-center gap-4 mt-7">
+              <!-- GitHub -->
+              <a
+                href="https://github.com/rabiaasif0712"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                class="w-11 h-11 rounded-xl bg-slate-800 flex items-center justify-center hover:bg-blue-400 hover:-translate-y-1 transition-all duration-500 ease-out"
+              >
+                <img
+                  src="src/home-img/github.webp"
+                  alt="github"
+                  class="w-6 h-6"
+                />
+              </a>
+
+              <!-- WhatsApp -->
+              <a
+                href="https://wa.me/923290386076"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+                class="w-11 h-11 rounded-xl bg-slate-800 flex items-center justify-center hover:bg-green-600 hover:-translate-y-1 transition-all duration-500 ease-out"
+              >
+                <img
+                  src="src/home-img/whatsapp.png"
+                  alt="WhatsApp"
+                  class="w-6 h-6"
+                />
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div>
+            <h3 class="text-lg font-bold mb-6">Quick Links</h3>
+
+            <ul class="space-y-4 text-slate-400">
+              <li>
+                <a
+                  href="index.html"
+                  class="hover:text-blue-400 transition-colors duration-500 ease-out"
+                >
+                  Home
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#blogs"
+                  class="hover:text-blue-400 transition-colors duration-500 ease-out"
+                >
+                  Explore Blogs
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="login.html"
+                  class="hover:text-blue-400 transition-colors duration-500 ease-out"
+                >
+                  Login
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="register.html"
+                  class="hover:text-blue-400 transition-colors duration-500 ease-out"
+                >
+                  Register
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="dashboard.html"
+                  class="hover:text-blue-400 transition-colors duration-500 ease-out"
+                >
+                  Dashboard
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Categories -->
+          <div>
+            <h3 class="text-lg font-bold mb-6">Categories</h3>
+
+            <ul class="space-y-4 text-slate-400">
+              <li>
+                <a
+                  href="#blogs"
+                  class="hover:text-blue-400 transition-colors duration-500 ease-out"
+                >
+                  Programming
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#blogs"
+                  class="hover:text-blue-400 transition-colors duration-500 ease-out"
+                >
+                  Frontend Development
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#blogs"
+                  class="hover:text-blue-400 transition-colors duration-500 ease-out"
+                >
+                  Backend Development
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Resources -->
+          <div>
+            <h3 class="text-lg font-bold mb-6">Resources</h3>
+
+            <ul class="space-y-4 text-slate-400">
+              <li>
+                <a
+                  href="#blogs"
+                  class="hover:text-blue-400 transition-colors duration-500 ease-out"
+                >
+                  Latest Articles
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#blogs"
+                  class="hover:text-blue-400 transition-colors duration-500 ease-out"
+                >
+                  Popular Topics
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="register.html"
+                  class="hover:text-blue-400 transition-colors duration-500 ease-out"
+                >
+                  Become a Writer
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="login.html"
+                  class="hover:text-blue-400 transition-colors duration-500 ease-out"
+                >
+                  Write a Blog
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Bottom Footer -->
+        <div class="border-t border-slate-800 mt-14 pt-7">
+          <div
+            class="flex flex-col md:flex-row items-center justify-between gap-5"
+          >
+            <p class="text-slate-500 text-sm">
+              © 2026 TechVerse. All rights reserved.
+            </p>
+
+            <div class="flex items-center gap-6 text-sm text-slate-400">
+              <a
+                href="#"
+                class="hover:text-blue-400 transition-colors duration-500 ease-out"
+              >
+                Privacy Policy
+              </a>
+
+              <a
+                href="#"
+                class="hover:text-blue-400 transition-colors duration-500 ease-out"
+              >
+                Terms of Service
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
